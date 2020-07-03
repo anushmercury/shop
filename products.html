@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/shopstyle.css">
+    <title>Oeuvre-Online shop</title>
+    <link rel="shortcut icon" href="img\landmark.png">
+  </head>
+  <body>
+      <!--nav-->
+      <header>
+<div class="container-fluid">
+  <div class="row p-2 fixed-top bg-white text-dark" style="z-index: 1;">
+   
+    <div class="bg-white text-dark w-100">
+      <ul class="nav w-100">
+      <li class="nav-item col-md-3">
+        <a class="nav-link disabled d-none d-md-block" href="#" tabindex="-1" aria-disabled="true"><em>Telephone:000000000</em></a>
+      </li>
+      
+      <li class="nav-item col-md-3">
+        <a class="nav-link disabled d-none d-md-block " href="#" tabindex="-1" aria-disabled="true"><em>Welcome to our store</em></a>
+      </li>
+          
+      <li class="nav-item col-md-2 col-sm-6 col-6">
+        <div class="col-auto my-1"><form>
+          <select class="custom-select mr-sm-2 border-light" id="inlineFormCustomSelect">
+            <option selected>Armenian</option>
+            <option value="1">Russian</option>
+            <option value="2">English</option>
+            <option value="3">German</option>
+          </select></form>
+        </div>
+      </li>
+          
+      <li class="nav-item col-md-2 col-sm-6 col-6">
+        <div class="col-auto my-1"><form>
+        <select class="custom-select mr-sm-2 border-light" id="inlineFormCustomSelect">
+          <option selected>AMD</option>
+          <option value="1">RUB</option>
+          <option value="2">USD</option>
+          <option value="3">EUR</option>
+        </select></form>
+        </div>
+      </li>
+      
+      <li class="nav-item col-md-2 my-1">
+        <button type="button" class="btn btn-light d-none d-md-block">Wishlist <span class="badge badge-dark">0</span></button>
+      </li>
+    </ul>
+    </div>  
+    
+
+
+          <div class="navbar navbar-light bg-light w-100">
+           <div class="col-6 col-md-2"><a class="navbar-brand "><h1 class="display-4">Oeuvre</h1></a></div>
+            
+            <div class="col-md-8  d-none d-md-block">
+              <form class="form-inline w-50  ml-auto">
+              <input class="form-control mr-sm-0 border-light w-50" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form></div>
+            <div class="col-6 col-md-2 pr-3">
+            <div class="dropdown ml-auto ">
+              <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Account
+              </button>
+            
+              <div class="dropdown-menu w-25" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="dropdown-item" type="button" data-toggle="modal" data-target="#registModal">Registration</button>
+                <button class="dropdown-item" type="button">My Orders</button>
+                <button class="dropdown-item" type="button">Account Settings</button>
+              </div>
+          </div>
+            </div>
+          </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 shadow p-3 mb-0 bg-white rounded">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto m-auto">
+      <li class="nav-item dropdown col-md-3 mx-0">
+        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Woman
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-capitalize" href="products.html">clothes</a>
+          <a class="dropdown-item text-capitalize" href="#">shoes</a>
+          <a class="dropdown-item text-capitalize" href="#">accessories</a>
+        </div>
+      </li>
+
+         <li class="nav-item dropdown col-md-3 mx-0">
+        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Man
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-capitalize" href="#">clothes</a>
+          <a class="dropdown-item text-capitalize" href="#">shoes</a>
+          <a class="dropdown-item text-capitalize" href="#">accessories</a>
+        </div>
+      </li>
+
+         <li class="nav-item dropdown col-md-3 mx-0">
+        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Children
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-capitalize" href="#">clothes</a>
+          <a class="dropdown-item text-capitalize" href="#">shoes</a>
+          <a class="dropdown-item text-capitalize" href="#">accessories</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown col-md-3  mx-0">
+        <a class="nav-link dropdown-toggle text-uppercase text-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Sale
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-capitalize" href="#">women</a>
+          <a class="dropdown-item text-capitalize" href="#">men</a>
+          <a class="dropdown-item text-capitalize" href="#">children</a>
+        </div>
+      </li>
+
+
+         
+      <li class="nav-item dropdown col-sm-6"><form class="form-inline d-block d-md-none ">
+              <input class="form-control mr-sm-0 border w-50" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form></div></li>
+    </ul>
+  </div>
+</nav>
+</div>
+</header>
+<!--header end-->
+
+
+<!--content-->
+<div class="container-lg" style="margin-top: 255px;">
+      <div class="row d-lg-flex">
+
+          
+        <nav class="col-md-9" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Women</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Clothes</li>
+          </ol>
+        </nav>
+            <div class="col-md-3 my-2">
+          <form>
+          <select class="custom-select mr-sm-2 border-dark" id="inlineFormCustomSelect">
+            <option  class="text-capitalize" selected>Priced Form Low To High</option>
+            <option value="1" class="text-capitalize">Priced form high to low</option>
+            <option value="2" class="text-capitalize">by popularity</option>
+            <option value="3" class="text-capitalize">by rating</option>
+          </select>
+        </form>
+            </div>
+    
+    </div>
+     <div class="row">
+       <div class="col-lg-3 my-3"><div class="accordion" id="accordionExample">
+  
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapsePrice" aria-expanded="true" aria-controls="collapsePrice">
+          Choose Price
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapsePrice" class="collapse" aria-labelledby="headingPrice" data-parent="#accordionExample">
+      <div class="card-body">
+      <form class="d-lg-block d-flex"> <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck">
+        <label class="custom-control-label" for="customCheck">Less Than 2000</label>
+      </div>
+      <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck2">
+        <label class="custom-control-label" for="customCheck2">2000 To 10000</label>
+      </div>
+     <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck3">
+        <label class="custom-control-label" for="customCheck3">10000 To 50000</label>
+      </div>
+      <div class="custom-control custom-checkbox m-2">
+        <input type="checkbox" class="custom-control-input" id="customCheck4">
+        <label class="custom-control-label" for="customCheck4">More Than 50000</label>
+      </div>
+    </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseSize" aria-expanded="false" aria-controls="collapseSize">
+      Choose Size
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSize" class="collapse" aria-labelledby="headingSize" data-parent="#accordionExample">
+      <div class="card-body"><form class="d-lg-block d-flex" >
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="42">
+          <label class="custom-control-label" for="42">42</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="44">
+          <label class="custom-control-label" for="44">44</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="46">
+          <label class="custom-control-label" for="46">46</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="48">
+          <label class="custom-control-label" for="48">48</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="50">
+          <label class="custom-control-label" for="50">50</label>
+        </div>
+        <div class="custom-control custom-switch mx-3">
+          <input type="checkbox" class="custom-control-input" id="52">
+          <label class="custom-control-label" for="52">52</label>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapsecolor" aria-expanded="false" aria-controls="collapsecolor">
+      choose color
+        </button>
+      </h2>
+    </div>
+    <div id="collapsecolor" class="collapse" aria-labelledby="headingcolor" data-parent="#accordionExample">
+      <div class="card-body">
+       <form class="d-flex">
+        <div class="mx-2 d-flex d-lg-block">
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="red">
+          <label class="custom-control-label" for="red"><img width="30px" height="30px" src="img\Screen+Shot+2018-04-23+at+5.23.41+PM.png" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="blue">
+          <label class="custom-control-label" for="blue"><img width="30px" height="30px" src="img\indigo-blue.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="green">
+          <label class="custom-control-label" for="green"><img width="30px" height="30px" src="img\Green_square.svg.png" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="yellow">
+          <label class="custom-control-label" for="yellow"><img width="30px" height="30px" src="img\Spectrum-Solids-Bright-Yellow.jpg" class="rounded-circle"></label>
+        </div>
+        </div>
+           <div class="mx-2 d-flex d-lg-block">
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="gray">
+          <label class="custom-control-label" for="gray"><img width="30px" height="30px" src="img\Lead-Gray.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="brown">
+          <label class="custom-control-label" for="brown"><img width="30px" height="30px" src="img\Без названия.png" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="white">
+          <label class="custom-control-label" for="white"><img width="30px" height="30px" src="img\59522.jpg" class="rounded-circle"></label>
+        </div>
+         <div class="custom-control custom-checkbox m-1">
+          <input type="checkbox" class="custom-control-input" id="black">
+          <label class="custom-control-label" for="black"><img width="30px" height="30px" src="img\1280px-Black_flag.svg.png" class="rounded-circle"></label>
+        </div>
+        </div>
+       </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseSeason" aria-expanded="true" aria-controls="collapseSeason">
+          Choose Season
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSeason" class="collapse" aria-labelledby="headingSeason" data-parent="#accordionExample">
+      <div class="card-body">
+       <form class="d-lg-block d-flex"> <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="year">
+        <label class="custom-control-label" for="year">Year-round</label>
+      </div>
+      <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="summer">
+        <label class="custom-control-label" for="summer">Summer</label>
+      </div>
+     <div class="custom-control custom-checkbox mx-2">
+        <input type="checkbox" class="custom-control-input" id="winter">
+        <label class="custom-control-label" for="winter">Winter</label>
+      </div>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+       
+
+
+
+
+       <div class="col-lg-9 ">
+         <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="img\-.jpg" class="card-img img-fluid ">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Women Floral Print Skirts Set</a></h5>
+                    <p class="card-text">2020 Fashion Summer Bandage Strap Spaghetti strap Cropped Top+ Mini Skirts Gypsy Beachwear</p>
+                    <p class="card-text text-success"><strong>7,990 AMD</strong></p>
+                    <p class="card-text text-muted"><s>11,990 AMD</s></p>
+                    <a href="#" class="btn btn-outline-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="img\sdh.JPG" class="card-img img-fluid ">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Women Floral Print Skirts Set</a></h5>
+                    <p class="card-text">2020 Fashion Summer Bandage Strap Spaghetti strap Cropped Top+ Mini Skirts Gypsy Beachwear</p>
+                    <p class="card-text text-success"><strong>7,990 AMD</strong></p>
+                    <p class="card-text text-muted"><s>11,990 AMD</s></p>
+                    <a href="#" class="btn btn-outline-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="img\Harajuku.jpg" class="card-img img-fluid ">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Women Floral Print Skirts Set</a></h5>
+                    <p class="card-text">2020 Fashion Summer Bandage Strap Spaghetti strap Cropped Top+ Mini Skirts Gypsy Beachwear</p>
+                    <p class="card-text text-success"><strong>7,990 AMD</strong></p>
+                    <p class="card-text text-muted"><s>11,990 AMD</s></p>
+                    <a href="#" class="btn btn-outline-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="img\ririykf.JPG" class="card-img img-fluid ">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Women Floral Print Skirts Set</a></h5>
+                    <p class="card-text">2020 Fashion Summer Bandage Strap Spaghetti strap Cropped Top+ Mini Skirts Gypsy Beachwear</p>
+                    <p class="card-text text-success"><strong>7,990 AMD</strong></p>
+                    <p class="card-text text-muted"><s>11,990 AMD</s></p>
+                    <a href="#" class="btn btn-outline-secondary text-left">Add To Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+     </div>  
+</div>
+<!--/content-->
+
+<div class="row justify-content-center">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav></div>
+<footer>
+
+<div class="row w-auto">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 shadow-sm p-3 mb-1 bg-white rounded mt-3 border border-light">
+
+<ul class="nav w-100 list-group-horizontal-md ">
+  <li class=" text-center h5  col-md-3">Contact us</li>
+  <li class=" text-center h5  col-md-3">Live Chat</li>
+  <li class=" text-center h5  col-md-3">Shipping</li>
+  <li class=" text-center h5 col-md-3">Terms of use</li>
+
+</ul>
+</nav>
+</div>
+
+
+<div class="row p-3 d-md-flex navbar-light bg-light">
+          <div class = "col-12 col-md-6 ">
+            <div class="list-group list-group-horizontal d-flex justify-content-center bg-light text-dark">
+              <a class="mr-2 ml-3 mb-2 mt-3" href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384005.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+              <a class="mr-2 ml-3 mb-2 mt-3" href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+              <a class="mr-2 ml-3 mb-2 mt-3" href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384012.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+              <a class="mr-2 ml-3 mb-2 mt-3" href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384017.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+            </div> 
+          </div>
+          <div class = "col-12 text-center col-md-6 p-3"><h6 class="lead">©Tumo Center For Creative Technologies</h6></div>
+        </div>
+      </div>
+</footer>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-outline-dark">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="registModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Lastname</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Street">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+  </div>
+  <button type="submit" class="btn btn-outline-dark">Register</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
